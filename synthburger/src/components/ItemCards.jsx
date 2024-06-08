@@ -1,4 +1,5 @@
 import React from 'react';
+import { CartContext } from '../contexts/CartContext';
 
 const ItemCards = ({ title, description, price, imaegUrl }) => {
     return(
@@ -7,6 +8,7 @@ const ItemCards = ({ title, description, price, imaegUrl }) => {
             <div className = "ItemCard-Info">
                 <h2 className = "ItemCard-Title">{title}</h2>
                 <p className="ItemCard-Description">{description}</p>
+                <button onClick={() => addToCart({ title, price })}>Add to Cart</button>
             </div>
         </div>
     );
