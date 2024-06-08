@@ -1,7 +1,9 @@
 import NavBar from "./components/NavBar";
-import "./components/NavBar.css"
+import "./components/Styles.css"
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import MenuCards from "./components/Menu";
+import Menu from "./components/Items";
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       </nav>
       <main>
         <Home />
+        <Menu />
       </main>
       <Footer />
       </div>
