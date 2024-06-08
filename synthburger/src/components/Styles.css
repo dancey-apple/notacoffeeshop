@@ -13,7 +13,9 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
-    color: #fcf614
+    color: #fcf614;
+    font-family: 'Fuzzy Bubbles';
+    font-weight: 700;
 }
 
 .NavLinks{
@@ -68,6 +70,8 @@ html {
     height: 500px;
     margin: 16px;
     transition: transform 0.2s;
+    font-family: 'Fuzzy Bubbles';
+    font-weight: 400;
 }
 
 .item-card:hover {
